@@ -1,0 +1,12 @@
+<div class="pusher"><div class="undefined "><div class="problems_header_content__o_4YA"><div class="problems_header_content__title__L2cB2 g-mb-0"><h3 class="g-m-0">Spirally traversing a matrix</h3><div style="padding-top: 2px;"><div class="sprint_sprint_popup_container__zCU0K"><i aria-hidden="true" class="bookmark outline icon"></i></div><div class="sprint_sprint_modal_container_mobile__09_Vr"><i aria-hidden="true" class="bookmark outline icon"></i></div></div></div><i id="bug_1" aria-hidden="true" class="bug icon"></i></div><div class="problems_header_description__t_8PB"><span>Difficulty: <strong>Medium</strong></span><span>Accuracy: <strong>35.2%</strong></span><span>Submissions: <strong>313K+</strong></span><span>Points: <strong>4</strong></span></div><div class="ui divider"></div><div><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">You are given a rectangular matrix <strong>mat[][]</strong> of size <strong>n x m</strong>, and your task is to return an array while <strong>traversing</strong>&nbsp;the matrix in <strong>spiral</strong> form.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input</strong>: mat[][] = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+<strong>Output</strong>: [1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10]
+<strong>Explanation</strong>: <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/701264/Web/Other/blobid1_1734498654.png" width="456" height="228"><br></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input</strong>: mat[][] = [[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18]]
+<strong>Output</strong>: [1, 2, 3, 4, 5, 6, 12, 18, 17, 16, 15, 14, 13, 7, 8, 9, 10, 11]
+<strong>Explanation</strong>: Applying same technique as shown above.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input</strong>: mat[][] = [[32, 44, 27, 23], [54, 28, 50, 62]]
+<strong>Output</strong>: [32, 44, 27, 23, 62, 50, 28, 54]
+<strong>Explanation</strong>: Applying same technique as shown above, output will be [32, 44, 27, 23, 62, 50, 28, 54].</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 &lt;= n, m &lt;= 1000<br>0 &lt;= mat[i][j]&lt;= 100</span></p></div></div>
