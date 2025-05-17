@@ -1,0 +1,13 @@
+<div class="pusher"><div class="undefined "><div class="problems_header_content__o_4YA"><div class="problems_header_content__title__L2cB2 g-mb-0"><h3 class="g-m-0">Print Anagrams Together</h3><div style="padding-top: 2px;"><div class="sprint_sprint_popup_container__zCU0K"><i aria-hidden="true" class="bookmark outline icon"></i></div><div class="sprint_sprint_modal_container_mobile__09_Vr"><i aria-hidden="true" class="bookmark outline icon"></i></div></div></div><i id="bug_1" aria-hidden="true" class="bug icon"></i></div><div class="problems_header_description__t_8PB"><span>Difficulty: <strong>Medium</strong></span><span>Accuracy: <strong>65.78%</strong></span><span>Submissions: <strong>97K+</strong></span><span>Points: <strong>4</strong></span><span class="problems_label__MY7nU">Average Time: <strong>30m</strong></span></div><div class="ui divider"></div><div><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array of strings, return all groups of strings that are anagrams. The strings in each group must be arranged in the order of their appearance in the original array. Refer to the sample case for clarification.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = ["act", "god", "cat", "dog", "tac"]
+<strong>Output: </strong>[["act", "cat", "tac"], ["god", "dog"]]<strong>
+Explanation: </strong>There are 2 groups of anagrams "god", "dog" make group 1. "act", "cat", "tac" make group 2.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = ["no", "on", "is"]
+<strong>Output: </strong>[["is"], ["no", "on"]]<strong>
+Explanation: </strong>There are 2 groups of anagrams "is" makes group 1. "no", "on" make group 2.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = ["listen", "silent", "enlist", "abc", "cab", "bac", "rat", "tar", "art"]<br><strong>Output</strong>: [["abc", "cab", "bac"], ["listen", "silent", "enlist"], ["rat", "tar", "art"]]<br><strong>Explanation</strong>: <br>Group 1: "abc", "bac", and "cab" are anagrams.
+Group 2: "listen", "silent", and "enlist" are anagrams.
+Group 3: "rat", "tar", and "art" are anagrams.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1&lt;= arr.size() &lt;=100<br></span><span style="font-size: 18px;">1&lt;= arr[i].size() &lt;=10</span></p></div></div>
