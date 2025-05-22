@@ -1,0 +1,13 @@
+<div class="pusher"><div class="undefined "><div class="problems_header_content__o_4YA"><div class="problems_header_content__title__L2cB2 g-mb-0"><h3 class="g-m-0">Sum Pair closest to target</h3><div style="padding-top: 2px;"><div class="sprint_sprint_popup_container__zCU0K"><i aria-hidden="true" class="bookmark outline icon"></i></div><div class="sprint_sprint_modal_container_mobile__09_Vr"><i aria-hidden="true" class="bookmark outline icon"></i></div></div></div><i id="bug_1" aria-hidden="true" class="bug icon"></i></div><div class="problems_header_description__t_8PB"><span>Difficulty: <strong>Easy</strong></span><span>Accuracy: <strong>44.75%</strong></span><span>Submissions: <strong>62K+</strong></span><span>Points: <strong>2</strong></span></div><div class="ui divider"></div><div><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>arr[]</strong> and a number <strong>target</strong>, find a pair of elements (a, b) in <strong>arr[],&nbsp;</strong>where a&lt;=b whose sum is closest to <strong>target.</strong><br></span><strong><span style="font-size: 18px;">Note:&nbsp;</span></strong><span style="font-size: 18px;">Return the pair in sorted order and if there are multiple such pairs return the pair with maximum absolute difference. If no such pair exists return an empty array.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [10, 30, 20, 5], target = 25
+<strong>Output:</strong> [5, 20]
+<strong>Explanation:</strong> As 5 + 20 = 25 is closest to 25.
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> arr[] = [5, 2, 7, 1, 4], target = 10
+<strong>Output:</strong> [2, 7]
+<strong>Explanation:</strong> As (4, 7) and (2, 7) both are closest to 10, but absolute difference of (2, 7) is 5 and (4, 7) is 3. Hence, [2, 7] has maximum absolute difference and closest to target. </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = [10], target = 10
+<strong>Output:</strong> []
+<strong>Explanation:</strong> As the input array has only 1 element, return an empty array.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 &lt;= arr.size() &lt;= 2*10<sup>5</sup><br>0 &lt;= target&lt;= 2*10<sup>5</sup><br>0 &lt;= arr[i] &lt;= 10<sup>5</sup></span></p></div></div>
